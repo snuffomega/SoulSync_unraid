@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Nezreka/SoulSync</Support>
+  <Support>https://forums.unraid.net/topic/197283-support-soulsync/</Support>
   <Project>https://github.com/Nezreka/SoulSync</Project>
   <ReadMe>https://github.com/Nezreka/SoulSync/blob/main/README.md</ReadMe>
   <Overview>Music discovery and automation platform. Find new music, curate playlists, sync libraries, and integrate with popular streaming services, Soulseek (slskd), and media servers.</Overview>
