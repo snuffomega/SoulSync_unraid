@@ -97,7 +97,7 @@ Open SoulSync at `http://<server-ip>:8008` and go to **Settings**.
   - Do **not** use `localhost` — it won't resolve between containers
 - **API Key**: Paste the key from slskd's `settings.yml`
 
-### Connect Spotify (optional, recommended)
+### Connect Spotify (optional, apple fallback)
 1. Create an app at [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
 2. Add Redirect URI: `http://127.0.0.1:8888/callback`
 3. Copy **Client ID** and **Client Secret** into SoulSync settings
