@@ -36,14 +36,20 @@ When setting up slskd, configure these two folders on your Unraid host:
 
 ### 2. Generate an slskd API key
 
-SoulSync authenticates to slskd via an API key. Add one to slskd's `settings.yml`:
+SoulSync authenticates to slskd via an API key (16–255 characters). Generate one with:
+
+```bash
+openssl rand -hex 16
+```
+
+Then add it to slskd's `settings.yml`:
 
 ```yaml
 web:
   authentication:
     api_keys:
       soulsync:
-        key: "your-api-key-here"
+        key: "your-generated-key-here"
 ```
 
 Restart slskd after saving, then copy the key — you'll need it during SoulSync setup.
