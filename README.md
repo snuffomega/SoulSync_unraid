@@ -102,8 +102,6 @@ Open SoulSync at `http://<server-ip>:8008` and go to **Settings**.
 2. Add Redirect URI: `http://127.0.0.1:8888/callback`
 3. Copy **Client ID** and **Client Secret** into SoulSync settings
 
-> **Accessing from a remote machine?** When Spotify redirects back, `127.0.0.1` points to *your browser's* machine, not the server. Manually replace `127.0.0.1` in the callback URL with your server's IP, or use SSH port forwarding: `ssh -L 8888:localhost:8888 user@<server-ip>`
-
 ### Connect a media server (optional)
 - Use your server's LAN IP — e.g. `http://192.168.1.100:32400` for Plex
 - After connecting, run **Database Update** from the Dashboard to populate your library
