@@ -2,19 +2,19 @@
 
 ## Variables at a Glance
 
-| Field | Default | Notes |
-|-------|---------|-------|
-| WebUI Port | `8008` | Access at `http://<server-ip>:8008` |
-| Spotify OAuth Port | `8888` | Required for Spotify login |
-| Tidal OAuth Port | `8889` | Required for Tidal login |
-| Config | `/mnt/user/appdata/soulsync/config` | App config files |
-| Logs | `/mnt/user/appdata/soulsync/logs` | Log files |
-| Database | `/mnt/user/appdata/soulsync/data` | SQLite database storage |
-| Downloads | `/mnt/user/downloads/` | Must match slskd's completed downloads folder |
-| Library/Transfer | `/mnt/user/library/` | Must match slskd's shared music folder |
-| PUID | `99` | Unraid default (nobody) | #Unraid Specific
-| PGID | `100` | Unraid default (users) | #Unraid Specific
-| Timezone | `America/New_York` | Set to your local timezone |
+| Field | Container | Host (default) | Notes |
+|-------|-----------|----------------|-------|
+| WebUI Port | `8008` | `8008` | Access at `http://<server-ip>:8008` |
+| Spotify OAuth Port | `8888` | `8888` | Required for Spotify login |
+| Tidal OAuth Port | `8889` | `8889` | Required for Tidal login |
+| Config | `/app/config` | `/mnt/user/appdata/soulsync/config` | App config files |
+| Logs | `/app/logs` | `/mnt/user/appdata/soulsync/logs` | Log files |
+| Database | `/app/data` | `/mnt/user/appdata/soulsync/data` | SQLite database storage |
+| Downloads | `/app/downloads` | `/mnt/user/downloads/` | Must match slskd's completed downloads folder |
+| Library/Transfer | `/app/Transfer` | `/mnt/user/library/` | Must match slskd's shared music folder |
+| PUID | `PUID` | `99` | Unraid default (nobody) |
+| PGID | `PGID` | `100` | Unraid default (users) |
+| Timezone | `TZ` | `America/New_York` | Set to your local timezone |
 
 ---
 
