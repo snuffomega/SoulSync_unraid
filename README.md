@@ -71,6 +71,8 @@ Both containers must point to the **same host folders**. This is the most common
 
 If these don't match, SoulSync won't be able to read downloaded files or organize your library.
 
+> **Do not change the path fields in the SoulSync GUI.** Unlike most containers, SoulSync exposes the *container* path (e.g. `/app/downloads`), not the host path. Leave these as-is — set your host paths in the Unraid template instead, and Docker handles the mapping automatically.
+
 ---
 
 ## Installing SoulSync
