@@ -12,15 +12,15 @@
 | Database | `/app/data` | `/mnt/user/appdata/soulsync/data` | SQLite database storage |
 | Downloads | `/app/downloads` | `/mnt/user/downloads/` | Must match slskd's completed downloads folder |
 | Library/Transfer | `/app/Transfer` | `/mnt/user/library/` | Must match slskd's shared music folder |
-| PUID | `PUID` | `99` | Unraid default (nobody) |
-| PGID | `PGID` | `100` | Unraid default (users) |
+| PUID | `PUID` | `99` | Unraid specific permissions (nobody) |
+| PGID | `PGID` | `100` | Unraid specific permissions (users) |
 | Timezone | `TZ` | `America/New_York` | Set to your local timezone |
 
 ---
 
 ## SoulSync GUI — Download Settings
 
-These are the correct container paths to use inside the SoulSync settings UI. **Do not change them** — your host paths are mapped via the Unraid template or your docker compose.
+These are the correct container paths to use inside the SoulSync settings UI. **Do not change them** — your host paths are mapped via the Unraid template or your docker compose file.
 
 | SoulSync GUI field | Value |
 |--------------------|-------|
